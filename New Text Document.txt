@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manu Cafe | Tea, Coffee & Daily Essentials</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Manu Cafe  Fresh tea, coffee, milk, groceries and water can supply for local flats." />
+  <meta name="keywords" content="Manu Cafe, tea shop, coffee shop, milk delivery, water can supply, groceries" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background: #fafafa; color: #333; line-height: 1.6; }
+    a { text-decoration: none; }
+
+    header {
+      background: #6f4e37;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 2rem; }
+    header p { margin-top: 5px; font-size: 1rem; }
+
+    section { padding: 50px 20px; max-width: 1100px; margin: auto; }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero h2 { font-size: 2rem; margin-bottom: 15px; }
+    .hero p { margin-bottom: 25px; }
+
+    .btn {
+      display: inline-block;
+      background: #25d366;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: 600;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .card h3 { margin-bottom: 10px; color: #6f4e37; }
+
+    .booking {
+      background: #fff3e8;
+      text-align: center;
+      border-radius: 15px;
+    }
+
+    .booking h2 { margin-bottom: 15px; }
+
+    .contact {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      align-items: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #25d366;
+      font-weight: 600;
+    }
+
+    iframe { width: 100%; height: 250px; border: 0; border-radius: 12px; }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6rem; }
+      .hero h2 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Home -->
+  <header>
+    <h1>Manu Cafe</h1>
+    <p>Fresh Tea, Coffee & Daily Essentials Near You</p>
+  </header>
+
+  <section class="hero">
+    <h2>Your Local Tea & Daily Needs Shop</h2>
+    <p>Tea  Coffee  Milk  Groceries  Water Can Supply</p>
+    <a class="btn" href="https://wa.me/919901223244?text=Hello%20Manu%20Cafe,%20I%20want%20to%20book%20milk%20/%20water%20can%20delivery%20for%20my%20flat." target="_blank">
+      Order Milk / Water Can on WhatsApp
+    </a>
+  </section>
+
+  <!-- Products & Services -->
+  <section>
+    <h2 style="text-align:center;">Products & Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3> Tea & Coffee</h3>
+        <p>Freshly prepared tea and coffee every day.</p>
+      </div>
+      <div class="card">
+        <h3>3 Milk Supply</h3>
+        <p>Daily milk delivery available for nearby flats.</p>
+      </div>
+      <div class="card">
+        <h3>4a7 Water Can</h3>
+        <p>Reliable water can supply to apartments.</p>
+      </div>
+      <div class="card">
+        <h3>6d2 Daily Essentials</h3>
+        <p>Biscuits, soaps, groceries & cigarettes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section class="booking">
+    <h2>Milk & Water Can Booking</h2>
+    <p>Message us directly on WhatsApp to start your delivery.</p>
+    <a class="btn" href="https://wa.me/919901223244?text=Hello%20Manu%20Cafe,%20I%20want%20to%20book%20milk%20/%20water%20can%20delivery%20for%20my%20flat." target="_blank">
+      Book on WhatsApp
+    </a>
+  </section>
+
+  <!-- About -->
+  <section>
+    <h2>About Manu Cafe</h2>
+    <p>
+      Manu Cafe is a local neighborhood shop providing fresh tea, coffee, milk, and daily essentials. 
+      We also supply milk and water cans directly to flats with reliable and friendly service.
+    </p>
+  </section>
+
+  <!-- Contact & Location -->
+  <section>
+    <h2 style="text-align:center;">Location & Contact</h2>
+    <div class="contact">
+      <div>
+        <p><strong>Address:</strong><br> Add your shop address here</p>
+        <p><strong>Phone:</strong><br> <a href="tel:+919901223244">+91 99012 23244</a></p>
+        <p><strong>WhatsApp:</strong><br> <a href="https://wa.me/919999999999" target="_blank">Chat on WhatsApp</a></p>
+      </div>
+      <div>
+        <iframe 
+          src="https://www.google.com/maps?q=Manu%20Cafe&output=embed"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Manu Cafe | Local Tea & Daily Needs Shop
+  </footer>
+
+</body>
+</html>
